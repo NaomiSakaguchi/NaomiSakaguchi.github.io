@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Naomi Sakaguchi</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Devicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>NAomi Sakaguchi</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Naomi Sakaguchi</h2>
+            <img id="bio-image" src="img/avatar.jpg" alt="Avatar">
+            <p>Olá, meu nome é Naomi Sakaguchi  e sou <span class="highlight">Desenvolvedora Front-end.</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:ale.naomi@hotmail.com">ale.naomi@hotmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Naomi Sakaguchi</h1>
+            <p id="title"><span>Desenvolvedora Frontend</span></p>
+            <p class="description">Atualmente, sou desenvolvedora na Philips e estou alocada no time de design, para contribuir no projeto de <span class="highlight">Design-Tokens.</span></p>
+            <p class="description">Gosto de estudar e praticar todos os dias para melhorar e escrever códigos de qualidade.</p>
+            <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                    <div class="skills-box">
+                        <p class="skills-title">Front-end</p>
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Front-end Frameworks</p>
+                        <i class="devicon-bootstrap-plain colored"></i>
+                        <i class="devicon-sass-plain colored"></i>
+                        <i class="devicon-react-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Back-end</p>
+                        <i class="devicon-csharp-plain colored"></i>
+                        <i class="devicon-java-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Design</p>
+                        <i class="devicon-figma-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Games</p>
+                        <i class="devicon-unity-original"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Ferramentas</p>
+                        <i class="devicon-github-original"></i>
+                        <i class="devicon-visualstudio-plain colored"></i>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Ionicon-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
